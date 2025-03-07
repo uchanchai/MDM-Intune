@@ -3,7 +3,7 @@ s_version="v1.9"
 echo "Java data collection script $s_version started."
 date=$(date '+%Y-%m-%d %H:%M:%S')
 date_f=$(date '+%Y-%m-%d_%H%M%S')
-output_file="$(dirname "$0")/$(hostname)-java-installations_$date_f.csv"
+output_file="$(dirname "$0")/$(hostname)-java-installations_$date_f.log"
 os_name=$(uname -s)
 os_details=$(uname -a)
 java_version=""
