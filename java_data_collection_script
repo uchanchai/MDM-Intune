@@ -7,7 +7,8 @@ output_file="$(dirname "$0")/$(hostname)-java-installations_$date_f.csv"
 os_name=$(uname -s)
 os_details=$(uname -a)
 java_version=""
-java_class_path=$(dirname "$0")
+# java_class_path=$(dirname "$0")
+java_class_path="/Users/Shared/JavaScanner"
 java_class="Info"
 scan_option=$1
 
